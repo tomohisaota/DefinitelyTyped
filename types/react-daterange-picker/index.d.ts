@@ -27,6 +27,7 @@ export interface Props<T = DateRangePicker> extends React.Props<T> {
     initialDate?: Date;
     initialMonth?: number;
     initialYear?: number;
+    locale?: string;
     initialRange?: {};
     maximumDate?: Date;
     minimumDate?: Date;
